@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.android.poultry_manager">
+
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="com.android.alarm.permission.SET_ALARM" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_stat_name"
+        android:label="Poultry Manager"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <receiver android:name=".Notification_reciever" />
+
+        <activity android:name=".WeatherActivity" />
+        <activity
+            android:name=".RecordsActivity"
+            android:exported="true" />
+        <activity
+            android:name=".FarmSizeActivity"
+            android:exported="true" />
+        <activity
+            android:name=".FeedingActivity"
+            android:exported="true" />
+        <!--
+ ATTENTION: This was auto-generated to add Google Play services to your project for
+     App Indexing.  See https://g.co/AppIndexing/AndroidStudio for more information.
+        -->
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <activity
+            android:name=".ActualConsumptionActivity"
+            android:exported="true" />
+        <activity
+            android:name=".EggRecordActivity"
+            android:exported="true" />
+        <activity
+            android:name=".EgggradingActivity1"
+            android:exported="true" />
+        android:label="@string/title_activity_egggrading1"
+        android:theme="@style/AppTheme.NoActionBar">
+        <activity
+            android:name=".EggActivity"
+            android:exported="true" />
+        <activity
+            android:name=".FeedingActivity1"
+            android:exported="true" />
+        android:label="@string/title_activity_feeding1"
+        android:theme="@style/AppTheme.NoActionBar">
+        <activity
+            android:name=".MortalityActivity"
+            android:exported="true" />
+        <activity
+            android:name=".NumbersickActivity"
+            android:exported="true" />
+        <activity
+            android:name=".MarketingRecordsActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Drugnvacc0Activity"
+            android:exported="true" />
+        android:label="@string/title_activity_drugnvacc0"
+        android:theme="@style/AppTheme.NoActionBar">
+        <activity
+            android:name=".drugnvaacActivity1"
+            android:exported="true" />
+        <activity android:name=".StartActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        android:exported="true" />
+        <activity
+            android:name=".farmsizeEditActivity"
+            android:exported="true" />
+        <activity android:name=".layersEstimate"
+            android:exported="true"/>
+     </application>
+
+</manifest>

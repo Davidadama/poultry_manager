@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_egg"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.poultry_manager.EggActivity"
+    android:baselineAligned="false">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/eggs1"
+        android:scaleType="centerCrop"
+        />
+
+
+    <TextView
+        android:text="Eggs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="italic"
+        android:textAllCaps="false"
+        android:textSize="18sp"
+        android:textColor="@android:color/background_light"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <Button
+        android:text="LAYING RECORDS"
+        android:id="@+id/viewbtn2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:onClick="laying_rec"
+        android:layout_gravity="center"
+            android:textColor="@color/common_google_signin_btn_text_dark_pressed"
+            android:background="@android:color/transparent"
+
+            />
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"/>
+        <Button
+        android:text="performance grading"
+        android:id="@+id/laying_performance"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:onClick="laying_perf"
+        android:layout_gravity="center"
+            android:textColor="@color/common_google_signin_btn_text_dark_pressed"
+            android:background="@android:color/transparent"
+
+        />
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"/>
+
+        <Button
+        android:text="egg size grading"
+        android:id="@+id/egg_size_grading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:layout_gravity="center"
+        android:onClick="Egg_size"
+            android:textColor="@color/common_google_signin_btn_text_dark_pressed"
+            android:background="@android:color/transparent"
+        />
+    </LinearLayout>
+</RelativeLayout>

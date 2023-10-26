@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_marketing_records"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.android.poultry_manager.MarketingRecordsActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Marketing Records"
+        android:textStyle="italic"
+        android:textSize="17sp"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="ID:2{required field for updating}"
+        android:id="@+id/idn"
+        android:lines="1"
+        android:gravity="right"
+        android:inputType="text"
+        android:imeOptions="actionNext"
+        />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="15sp" />
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="19sp"
+                android:text="Transaction Type:"/>
+            <Space
+                android:layout_width="12sp"
+                android:layout_height="wrap_content" />
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="Sale/Purchase"
+                android:id="@+id/sale_purchase"
+                android:lines="1"
+                android:inputType="text"
+                android:imeOptions="actionNext"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="19sp"
+                android:text="Date:"/>
+            <Space
+                android:layout_width="12sp"
+                android:layout_height="wrap_content" />
+
+            <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="10/08/2019"
+            android:id="@+id/mark_date"
+            android:lines="1"
+            android:inputType="text"
+            android:imeOptions="actionNext"
+            />
+            </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="19sp"
+                android:text="Item(s)Sold or purchased:"/>
+            <Space
+                android:layout_width="12sp"
+                android:layout_height="wrap_content" />
+
+            <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Vitamins"
+            android:id="@+id/item_sold"
+            android:lines="1"
+            android:inputType="text"
+            android:imeOptions="actionNext"
+            />
+            </LinearLayout>
+
+        <Space
+            android:layout_width="335dp"
+            android:layout_height="40sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="19sp"
+                android:text="Number sold or purchased:"/>
+            <Space
+                android:layout_width="12sp"
+                android:layout_height="wrap_content" />
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/num_sold"
+                android:hint="30 sachets"
+                android:gravity="center"
+                android:inputType="text"
+                android:lines="1"
+                android:imeOptions="actionNext"/>
+            </LinearLayout>
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="25sp" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="19sp"
+                android:text="Price per sale/purchase:"/>
+            <Space
+                android:layout_width="12sp"
+                android:layout_height="wrap_content" />
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/price_per"
+                android:hint="250 naira"
+                android:gravity="center"
+                android:inputType="text"
+                android:lines="1"
+                android:imeOptions="actionNext"/>
+        </LinearLayout>
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="25sp" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="19sp"
+                android:text="Total(sale/purchase):"/>
+            <Space
+                android:layout_width="12sp"
+                android:layout_height="wrap_content" />
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/total_purch"
+                android:hint="7500 naira"
+                android:gravity="center"
+                android:inputType="text"
+                android:lines="1"
+                android:imeOptions="actionNext"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="19sp"
+                    android:text="Other transactions:"/>
+                <Space
+                    android:layout_width="12sp"
+                    android:layout_height="wrap_content" />
+
+                <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/others"
+                android:hint="miscellaneous"
+                android:gravity="center"
+                android:inputType="text"
+                android:lines="5"
+                android:imeOptions="actionDone"/>
+                </LinearLayout>
+
+                <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="For purchase"
+                android:textSize="19sp"
+                android:textStyle="bold"/>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="19sp"
+                    android:text="Brand purchased:"/>
+
+                <Space
+                    android:layout_width="12sp"
+                    android:layout_height="wrap_content" />
+
+                <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/brand"
+                android:gravity="center"
+                android:lines="1"
+                android:inputType="text"
+                android:imeOptions="actionNext"
+                android:hint="jatex farms"/>
+                </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="19sp"
+                android:text="Purchase Source:"/>
+            <Space
+                android:layout_width="12sp"
+                android:layout_height="wrap_content" />
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/source_purch"
+                android:gravity="center"
+                android:inputType="text"
+                android:lines="1"
+                android:imeOptions="actionDone"
+                android:hint="jatex HQ"/>
+
+        </LinearLayout>
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="12sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:text="Save"
+                android:textSize="13sp"
+                android:id="@+id/savebtn5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="SaveClicked6"
+                android:layout_gravity="center_horizontal"
+                android:ems="30"
+                android:layout_weight="1"
+                />
+            <Button
+                android:text="update"
+                android:textSize="13sp"
+                android:id="@+id/updatebtn5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="UpdateClicked6"
+                android:layout_gravity="center_horizontal"
+                android:ems="30"
+                android:layout_weight="1"
+                />
+        </LinearLayout>
+        </LinearLayout>
+      </ScrollView>
+</LinearLayout>
+

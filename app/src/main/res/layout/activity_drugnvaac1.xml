@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_drugnvaac1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.android.poultry_manager.drugnvaacActivity1">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/vacc1"
+        android:scaleType="centerCrop"
+        />
+
+
+    <TextView
+        android:text="Drugs and Vaccines"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="italic"
+        android:textAllCaps="false"
+        android:textSize="18sp"
+        android:textColor="@android:color/holo_orange_dark"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <Button
+            android:text="notify me"
+            android:textStyle="italic"
+            android:id="@+id/notify"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="10sp"
+            android:layout_gravity="end"
+            android:onClick="drugnvacc3"
+            android:background="@android:color/transparent"
+
+            />
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="20dp" />
+
+        <Button
+        android:text="drugs and vaccines"
+        android:id="@+id/laying_records"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:onClick="drugnvacc0"
+        android:layout_gravity="center"
+            android:background="@android:color/transparent"
+
+            />
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"/>
+
+        <Button
+        android:text="broilers vaccination"
+        android:id="@+id/broil_vacc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:onClick="drugnvacc1"
+        android:layout_gravity="center"
+            android:background="@android:color/transparent"
+            />
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"/>
+        <Button
+        android:text="pullets vaccination"
+        android:id="@+id/pullets_vacc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:layout_gravity="center"
+        android:onClick="drugnvacc2"
+            android:background="@android:color/transparent"
+
+            />
+
+    </LinearLayout>
+  </RelativeLayout>

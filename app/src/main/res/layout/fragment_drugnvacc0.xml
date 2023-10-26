@@ -1,0 +1,108 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.android.poultry_manager.Drugnvacc0Activity$PlaceholderFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Vaccination"
+                android:textSize="17sp"
+                android:textStyle="italic"/>
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="12sp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/vaccination"
+                android:textAlignment="inherit"
+                android:textSize="15sp"
+                />
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="12sp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Vaccine failure"
+                android:textSize="17sp"
+                android:textStyle="italic"/>
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="12sp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/vaccination0"
+                android:textAlignment="inherit"
+                android:textSize="15sp"
+                />
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="12sp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Drug Application"
+                android:textSize="17sp"
+                android:textStyle="italic"/>
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="12sp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/vaccination1"
+                android:textAlignment="inherit"
+                android:textSize="15sp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Deworming"
+                android:textSize="17sp"
+                android:textStyle="italic"/>
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="12sp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/vaccination2"
+                android:textAlignment="inherit"
+                android:textSize="15sp"
+                />
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="40sp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/vaccination5"
+                android:textAlignment="inherit"
+                android:textStyle="italic"
+                android:textColor="@android:color/holo_orange_dark"
+                android:textSize="15sp"
+                />
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

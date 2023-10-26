@@ -1,0 +1,198 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_actual_consumption"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+
+    tools:context="com.example.android.poultry_manager.ActualConsumptionActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Actual Consumptionn"
+        android:textStyle="italic"
+        android:textSize="17sp"/>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Week:1{required field for updating}"
+            android:id="@+id/week"
+            android:lines="1"
+            android:gravity="left"
+            android:inputType="number"
+            android:imeOptions="actionNext"
+            />
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="12dp"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Age:"
+            android:textSize="19sp"/>
+            <Space
+                android:layout_width="35dp"
+                android:layout_height="wrap_content"
+                />
+
+            <EditText
+        android:id="@+id/wk1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:hint="week 2"
+        android:lines="1"
+        android:imeOptions="actionNext"
+            />
+        </LinearLayout>
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Weight in grammes:"
+                android:textSize="19sp"/>
+    <EditText
+        android:id="@+id/wk1kg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:hint="per bird{4.1}"
+        android:lines="1"
+        android:gravity="center"
+        android:imeOptions="actionNext"
+        />
+        </LinearLayout>
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="Weight in k.g:"
+           android:textSize="19sp"/>
+        <EditText
+            android:id="@+id/wk1g"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:hint="Per bird 20"
+            android:lines="1"
+            android:gravity="center"
+            android:imeOptions="actionNext"
+            />
+        </LinearLayout>
+
+        <Space
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Daily consumption:"
+                android:textSize="19sp"/>
+    <EditText
+        android:id="@+id/day_cons"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:hint="5 bags"
+        android:lines="1"
+        android:gravity="center"
+        android:imeOptions="actionNext"
+        />
+        </LinearLayout>
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Weekly consumption:"
+                android:textSize="19sp"/>
+            <EditText
+        android:id="@+id/wk_cons"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:hint="35 bags"
+        android:lines="1"
+                android:gravity="center"
+                android:imeOptions="actionDone"
+        />
+</LinearLayout>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+>
+
+<Button
+        android:text="Save"
+        android:textSize="13sp"
+        android:id="@+id/savebtn1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="SaveClicked1"
+        android:layout_gravity="center_horizontal"
+        android:ems="30"
+        android:layout_weight="1"
+        />
+    <Button
+        android:text="update"
+        android:textSize="13sp"
+        android:id="@+id/updatebtn1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="ViewClicked1"
+        android:layout_gravity="center_horizontal"
+        android:ems="30"
+        android:layout_weight="1"
+        />
+    </LinearLayout>
+</LinearLayout>
+    </ScrollView>
+</LinearLayout>

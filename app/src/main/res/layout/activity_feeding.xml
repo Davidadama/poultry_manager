@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    >
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/feed1"
+        android:scaleType="centerCrop"
+        />
+    <TextView
+        android:text="feeding"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="italic"
+        android:textAllCaps="false"
+        android:textSize="18sp"
+        android:textColor="@android:color/background_light"
+        />
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="20dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+    <Button
+        android:text="Broiler Estimate"
+        android:id="@+id/broiest"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:layout_gravity="center"
+        android:onClick="BroilEst"
+        android:textColor="@color/common_google_signin_btn_text_dark_pressed"
+        android:background="@android:color/transparent"
+
+        />
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"/>
+
+        <Button
+        android:text="layer Estimate"
+        android:id="@+id/layr_est"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:layout_gravity="center"
+        android:onClick="LayerEst"
+            android:textColor="@color/common_google_signin_btn_text_dark_pressed"
+            android:background="@android:color/transparent"
+
+            />
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"/>
+        <Button
+            android:text="actual consumption"
+            android:id="@+id/viewbtn1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:layout_gravity="center"
+            android:onClick="actual"
+            android:textColor="@color/common_google_signin_btn_text_dark_pressed"
+            android:background="@android:color/transparent"
+            />
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"/>
+
+        <Button
+        android:text="Nutrition"
+        android:id="@+id/nutrition"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:layout_gravity="center"
+        android:onClick="nutri"
+            android:textColor="@color/common_google_signin_btn_text_dark_pressed"
+            android:background="@android:color/transparent"
+            />
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"/>
+
+        <Button
+        android:text="Weight"
+        android:id="@+id/wght"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:layout_gravity="center"
+        android:onClick="wght"
+            android:textColor="@color/common_google_signin_btn_text_dark_pressed"
+            android:background="@android:color/transparent"
+            />
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"/>
+
+        <Button
+            android:text="feeding programme"
+            android:id="@+id/sick"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:layout_gravity="center"
+            android:onClick="feedpro"
+            android:textColor="@color/common_google_signin_btn_text_dark_pressed"
+            android:background="@android:color/transparent"
+
+            />
+
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,118 @@
+<resources>
+    <string name="app_name">POULTRYMANAGER</string>
+
+    <string-array name="items">
+        <item>Broilers Estimate</item>
+        <item>layers Estimate</item>
+    </string-array>
+
+    <string name="Broiler_Activity">The general rule is that water is needed at least 2 times per gramme of feed eaten.Water consumption doubles when the weather becomes hot .Water must always be available.
+ Fresh clean water should be given at least twice in a day,when the temperature rises to 35 degree celcius,it doubles. Failure to wash drinkers each time can lead to mold and bacterial growth and can lead to disease outbreak.
+    </string>
+
+    <string name="Broiler_Activity0">
+         We have had 100 birds fed with 23 bags of 25kg in all, within this period with good results. Birds above 10 weeks eat more and gain much less weight.People may after that age,pay for feathers weight and not the meat desired.Those selling based on weight should feed birds for 24 hours and target selling at 6-8 weeks."
+    </string>
+
+    <string name="Layers_Activity">
+         After 24 weeks,every 200 birds take about 1 bag a day.Divide
+   this to two feedings.Turn feed from time to time.
+   Feed the birds about the same time daily.Heavier breeds may eat more.
+   Too much feeding can lead to prolapse delay in lay,fatty liver syndrome and death.
+    </string>
+
+    <string name="weight" formatted="false">
+        It is important to randomly weigh birds at intervals {weekly or monthly}
+This is to make sure they match the producers weight forecast.This is both applicable to broilers and layers.
+Modern feed formulation uses weight and not age,in some cases,to produce the feed for birds .It is important to weigh between 1% and 5% of the birds,this is to establish the average weight.
+The more varied the recorded weight,the more issues a farmer will get in growth and production of the birds.This can delay the onset of lay,cause prolonged low rate of lay and also cannibalism{\'oppression\' of weaker birds}etc.Broilers that do not grow well,can eat more later but still gain less weight.This is not good for profitable broiler and layer production.
+The main aim is to attain uniform growth in the the farm thereby improving the performances and ultimately profit."
+    </string>
+
+    <string name="weight0" formatted="false">
+         A chart of weight gain versus feed eaten shown below,show also 82% weight gain per gramme of feed eaten.It declines to 51% by week 5 and 34% by week 10."
+    </string>
+    <string name="weight1" formatted="false">
+        Where birds are over weight,a farmer is to reduce 1% of feeds for every 1% weight increase above what it should be.A farmer is to increase similarly for weight loss. It should be gradual not abrupt. This is important for broilers and layers."
+    </string>
+    <string name="performance">
+        So many farms are usually way of this target and should work at meeting it by all means possible
+    </string>
+     <string name="performance1">
+        A bird needs about 26 hours for an egg to be formed.If a bird lays 5-6 eggs per week, it is acceptable.They do not lay one egg daily unless at the best of peak.
+    </string>
+      <string name="EggGrading">
+          Usually,smaller layer breeds have smaller eggs when talking about egg size.There are some factors that affect the size of an egg;low protein,insufficient intake of water,early laying,older birds lay bigger sizes of eggs.
+          When birds are given too much vitamins,the eat more,give bigger sizes and in some cases an egg will contain two egg yolks.Too much vitamins can also lead to prolapse
+        </string>
+      <string name="vaccination">
+      For an area,the vaccination programme is localized. There is the need to monitor response some weeks after administration of the vaccine.This is called sero-monitoring. Some farmers give Gumboro vaccine twice and take the blood to check response to the vaccine.
+          If the result is negative,the vaccine is repeated.Marek vaccine is given in the hatchery.A repeat is needed on day three where there is high prevalence.
+      </string>
+      <string name="vaccination0">
+          Some causes of vaccine failure are as follows;\n
+          *Poor vaccine production.\n
+          *Wrong needles(Oil based vaccines need bigger needles)\n
+          *Failure to repeat vaccines.For instance,fowl pox vaccination may be done earlier or repeated in the southern part of Nigeria due to high humidity.
+           If such a vaccine is not repeated,it can lead to disease.\n
+          *Inadequate drinkers for oral vaccines.One chick drinker should be used for 25-30 birds.\n
+          *Expired vaccines.\n
+          *Wrong vaccination site.\n
+          *Congestion of birds can lead to vaccine failure.For instance,Gumboro failure.\n
+          *Poor vaccine storage.\n
+          *Poor vaccine usage.\n
+          *Hot weather tends provide all the necessary conditions for a vaccine like Gumboro to fail.\n
+          *Poor timing of water before oral vaccination.\n
+          *Vaccination of sick birds.\n\n
+          It is important to get professional advice from a qualified veterinarian in scheduling and implementation of a good vaccination programme for your birds.Vitamins and table salt is known to reduce stress and may lower vaccine failure.
+      </string>
+      <string name="vaccination1">
+          *Avoid the usage of one particular drug continuously to avoid disease resistance on the farm .\n
+          *Ensure that drug satchets purchased contains 100 grammes,1kg,or whatever weight is written.There are differences in weight within the same batch.\n
+          *Right dosages should be used.\n
+          *Ensure you consult your vet before mixing.This is because some drugs are not compatible with others.Drugs like armprolium for coccidiosis,can also be used for prevention of diseases.This be done by just following the manufactures directions.\n
+          *If water consumption drops,recalculate the drug quantity they should have and add it to increase the drug concentration to avoid drug resistance.\n
+       </string>
+         <string name="vaccination2">
+             Deworming should be done at 8 weeks,and repeated 2 weeks later.Then at 17 weeks, it should also be done and thereafter every 3 months,till the end of the flocks life.\n
+       </string>
+          <string name="vaccination3">
+             For feeders,give ONE for every 25-30 birds.\n
+             For Drinkers, give ONE for every 25-30 birds.\n
+             For broilers above 2 weeks old,use one drinker for 15-20(for vaccination purpose only). \n
+             Avoid overcrowding/congestion.\n
+             Avoid excessive heat or cold.\n
+             If any sign of illness is noticed,contact a Veterinary Doctor before vaccinating your birds.\n
+             For further information,contact any reputable Veterinary clinic.\n
+              </string>
+             <string name="vaccination4">
+             No ANTI BIOTIC two weeks before and after fowl typhoid and cholera vaccines must have been given.\n
+             For feeders,give ONE for every 25-30 birds.\n
+             For drinkers,give ONE for every 25-30 birds. \n
+             Avoid overcrowding/congestion.\n
+             Avoid excessive heat or cold.\n
+             If any sign of illness is noticed,contact a Veterinary Doctor before vaccinating your birds.\n
+             For further information,contact any reputable Veterinary clinic.\n
+              </string>
+        <string name="vaccination5">
+            N.B:\n
+            Click the NOTIFY ME button on the main\n page of
+            drugs and vaccines, to get a daily reminder of
+            vaccines to be administered.
+      </string>
+
+
+
+
+
+    <string name="title_activity_egggrading1">EgggradingActivity1</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_feeding1">FeedingActivity1</string>
+    <string name="title_activity_drugnvacc">drugnvaccActivity</string>
+    <string name="title_activity_drugnvacc0">Drugnvacc0Activity</string>
+
+</resources>

@@ -1,0 +1,82 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    tools:context="com.example.android.poultry_manager.FeedingActivity1$PlaceholderFragment">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Feeding Programme"
+        android:textStyle="italic"
+        android:textSize="17sp"
+        />
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="12dp"
+        />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Broilers"
+        android:textStyle="bold"
+        android:textSize="17sp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Broiler Starter 1-6 weeks."
+        android:textSize="17sp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Broiler finisher 6 weeks-table size."
+        android:textSize="17sp"
+        />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="12dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Layers"
+        android:textStyle="bold"
+        android:textSize="17sp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Chick mash 1-10 weeks some breeds(black) 1-8 weeks."
+        android:textSize="17sp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Grower mash 10 weeks-5% lay."
+        android:textSize="17sp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Layers mash 5% to end of lay."
+        android:textSize="17sp"
+        />
+</LinearLayout>
+    </ScrollView>
+</LinearLayout>

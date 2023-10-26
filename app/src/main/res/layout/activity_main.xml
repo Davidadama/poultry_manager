@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:orientation="vertical"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context="com.example.android.poultry_manager.MainActivity"
+    >
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/home2"
+        android:scaleType="centerCrop"
+        />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+       >
+        <Button
+    android:id="@+id/button1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+    android:text="weather"
+    android:textAllCaps="true"
+    android:textSize="20sp"
+    android:layout_gravity="center"
+    android:textColor="@color/common_google_signin_btn_text_dark_pressed"
+    android:onClick="weatherUpdate"
+            android:background="@android:color/transparent"
+
+            />
+<Space
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_weight="1"/>
+     
+   <Button
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="records"
+    android:textAllCaps="true"
+    android:textSize="20sp"
+    android:layout_gravity="center"
+    android:textColor="@color/common_google_signin_btn_text_dark_default"
+    android:onClick="currentRecords"
+            android:background="@android:color/transparent"
+
+            />
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"/>
+
+        <Button
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="drugs and vaccines"
+    android:textAllCaps="true"
+    android:textSize="20sp"
+    android:layout_gravity="center"
+    android:textColor="@color/common_google_signin_btn_text_dark_pressed"
+            android:background="@android:color/transparent"
+            android:onClick="vaccineNotification"
+          />
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"/>
+
+        <Button
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="connect"
+    android:id="@+id/whats_app"
+    android:textAllCaps="true"
+    android:textSize="20sp"
+    android:layout_gravity="center"
+            android:textColor="@color/common_google_signin_btn_text_dark_pressed"
+            android:background="@android:color/transparent"
+            android:onClick="connect"
+         />
+    </LinearLayout>
+    </RelativeLayout>
