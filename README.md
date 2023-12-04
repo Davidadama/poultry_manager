@@ -16,12 +16,22 @@ egg records,mortality records, marketing records)
 **Server:** sqlite
 
 ## Screenshots
-<p float= "left">
+
 <img src= "https://github.com/Davidadama/poultry_manager/assets/49925866/9b6a1706-9720-4f66-ba9b-fe7169bfa7e9"
-  height ='550' width='350'/>
+  height ='450' width='250'/>
 
   <img src= "https://github.com/Davidadama/poultry_manager/assets/49925866/814b3de2-4dde-4394-a19c-2865a2617291"
- height ='550' width='350'
-   />
-</p>
+ height ='450' width='250'  />
+   
+  <img src= "https://github.com/Davidadama/poultry_manager/assets/49925866/d1f45eb6-0576-431d-8c1f-f1f8aeb28e2a"
+height ='450' width='250'
+    />
+
+  <img src= "https://github.com/Davidadama/poultry_manager/assets/49925866/52f1e9eb-7723-4ad8-babd-e3b55173dfe9"
+height ='450' width='250'
+    />
+  <img src= "https://github.com/Davidadama/poultry_manager/assets/49925866/17d29bf9-9fe0-4350-b55b-942bc15ba9ea"
+ height ='450' width='250'
+    />
+
 
