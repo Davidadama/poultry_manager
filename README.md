@@ -14,4 +14,14 @@ egg records,mortality records, marketing records)
 **Client:** java, xml
 
 **Server:** sqlite
+
 ## Screenshots
+<p float= "left">
+<img src= "https://github.com/Davidadama/poultry_manager/assets/49925866/9b6a1706-9720-4f66-ba9b-fe7169bfa7e9"
+  height ='550' width='350'/>
+
+  <img src= "https://github.com/Davidadama/poultry_manager/assets/49925866/814b3de2-4dde-4394-a19c-2865a2617291"
+ height ='550' width='350'
+   />
+</p>
+
